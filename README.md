@@ -11,11 +11,9 @@ Simple LineString Output: The converted trajectories are output as LineStrings, 
 
 # Installation
 To use the GPS to Trajectory Converter, simply clone the repository and run the script with the necessary arguments. No installation is required.
-
-git clone https://github.com/your-username/GPS2Traj.git//
-cd GPS2Traj//
-python convert_gps_to_traj.py -i /path/to/input.csv -o /path/to/output.csv -d ',' --id id_col -x x_col -y y_col -t timestamp_col//
-//
+```
+python convert_gps_to_traj.py -i /path/to/input.csv -o /path/to/output.csv -d ',' --id id_col -x x_col -y y_col -t timestamp_col
+```
 (Replace /path/to/input.csv and /path/to/output.csv with the paths to your input and output files, respectively. Use the -d flag to specify a delimiter if different from the default comma. Use the --id, -x, -y, and -t flags to specify the column names for ID, x-coordinate, y-coordinate, and timestamp.)
 
 # Dependencies
